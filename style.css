@@ -1,0 +1,102 @@
+@font-face {
+    font-family: Sans;
+    src: url(fonts/EudoxusSans.ttf);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to top, rgb(114, 191, 243), rgb(13, 97, 153));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.377);
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.pages {
+    font-family: Sans;
+    padding: 30px;
+}
+
+#page1 {
+    background-color: white;
+
+    h2 {
+        color: rgb(50, 137, 250);
+    }
+}
+
+#page2 {
+    color: white;
+    background-color: rgb(0, 91, 209);
+}
+
+#page2 .long-field, #page2 .short-field {
+    color: white;
+}
+
+.long-field, .short-field {
+    box-sizing: border-box;
+    margin: 5px 0px;
+    padding: 8px 5px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    background-color: unset;
+}
+
+.long-field {
+    width: 100%;
+}
+
+.short-field {
+    width: 47%;
+}
+
+.flexer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#checkbox-container {
+    font-size: 11px;
+    margin: 30px 0px;
+
+    a {
+        color: white;
+    }
+}
+
+.buttons {
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+#submit-button {
+    font-size: 11px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+#reset-button {
+    font-family: Sans;
+    font-size: 10px;
+    background-color: unset;
+    color: white;
+    text-decoration: underline;
+    border: none;
+}
+
+#check-box {
+    accent-color: white;
+}
